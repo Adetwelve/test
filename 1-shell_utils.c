@@ -3,7 +3,7 @@
 void ctrl_C(int signum)
 {
 	if (signum == SIGINT)
-		print("\n (p) >", STDIN_FILENO);
+		print("\n$ ", STDIN_FILENO);
 }
 
 char *_getline(void)
